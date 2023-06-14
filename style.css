@@ -1,0 +1,86 @@
+/* Estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos do cabeçalho */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Estilos dos produtos */
+  .produtos {
+    padding: 20px;
+  }
+  
+  .produtos h2 {
+    margin-top: 0;
+  }
+  
+  .produto {
+    display: inline-block;
+    width: 200px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+  }
+  
+  .produto img {
+    width: 100%;
+  }
+  
+  .produto h3 {
+    margin-top: 0;
+  }
+  
+  .produto p {
+    margin-bottom: 0;
+  }
+  
+  .produto button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilos do rodapé */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+
+.formulario{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
